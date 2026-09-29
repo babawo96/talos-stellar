@@ -410,9 +410,6 @@ working — new behavior is purely additive.
 | 400 | `TalosValidationError` | `validation_error` | no | `issues: string[]` |
 | 422 | `TalosValidationError` | `validation_error` | no | `issues: string[]` |
 | 401 | `TalosAuthenticationError` | `authentication_error` | no | — |
-| 400 | `TalosValidationError` | `validation_error` | no | `issues: string[]` |
-| 422 | `TalosValidationError` | `validation_error` | no | `issues: string[]` |
-| 401 | `TalosAuthenticationError` | `authentication_error` | no | — |
 | 402 | `TalosPaymentError` | `payment_error` | no | `challenge?: { price, payee, token, … }` |
 | 403 | `TalosForbiddenError` | `forbidden` | no | — |
 | 404 | `TalosNotFoundError` | `not_found_error` | no | — |
